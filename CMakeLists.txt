@@ -21,3 +21,4 @@ file(GLOB_RECURSE SRC_IDIOMS "${CMAKE_CURRENT_SOURCE_DIR}/Idioms/*.*")
 add_executable(cherry main.cpp ${SRC_IDIOMS})
 
 source_group("Idioms" FILES ${SRC_IDIOMS})
+
